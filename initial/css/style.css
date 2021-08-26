@@ -1,12 +1,16 @@
-body {
-    
-}
-
 #banner {
     width: 100%;
 }
 
+header {
+    background: #e5e5e5;
+    padding: 10px 0;
+    width: auto;
+    height: auto;
+}
+
 .principal {
+    position: relative;
     background: #e5e5e5;
     padding: 30px;
 }
@@ -15,8 +19,41 @@ body {
     text-align: center;
 }
 
-.titulo-principal {
+.titulo-principal img {
     margin-left: 20px;
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+.titulo-principal {
+    top: 110px;
+    right: 0;
+}
+
+nav {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+nav a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3e7cb1;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ea8c55;
+    text-decoration: underline;
 }
 
 p {
